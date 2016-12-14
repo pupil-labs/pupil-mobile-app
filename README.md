@@ -6,7 +6,7 @@ Pupil Mobile is companion app to Pupil Capture and Pupil Service.
 
 With Pupil Mobile you can connect your Headest via USB-C to a Android Phone and stream video data over the local network. It seamlesly integrates with Pupil Capture und Service. 
 
-The app is free and can get downloaded here
+The app is free and can get downloaded in the [google play store](https://play.google.com/store/apps/details?id=com.pupillabs.pupilmobile).
 
 The communication protocal is named [NDSI](https://github.com/pupil-labs/pyndsi/blob/master/NDSI-CommSpecs.md), it is completely open and a referece client for Python exsits [here](https://github.com/pupil-labs/pyndsi).
 
