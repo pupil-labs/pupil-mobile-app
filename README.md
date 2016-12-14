@@ -2,7 +2,7 @@
 A repository for the Pupil Labs mobile app Docs, Wiki and Issues
 
 
-Pupil Mobile is companion app to Pupil Capture and Pupil Service.
+Pupil Mobile is companion app to Pupil Capture and Pupil Service. It is currently in public alpha!
 
 With Pupil Mobile you can connect your Headest via USB-C to a Android Phone and stream video data over the local network. It seamlesly integrates with Pupil Capture und Service. 
 
@@ -18,7 +18,7 @@ The communication protocal is named [NDSI](https://github.com/pupil-labs/pyndsi/
 
 ## I found a bug or need a feature!
 
-Please file an issue in this repository. This app is in Beta, help us make it better.
+Please file an issue in this repository. This app is in Alpha state, help us make it better.
 
 ## I want to use this for my experiments in the field.
 
