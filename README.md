@@ -1,4 +1,4 @@
-# pupil-mobile-app
+# pupil-mobile
 A repository for the Pupil Labs mobile app Docs, Wiki and Issues
 
 
@@ -10,7 +10,7 @@ The app is free and can get downloaded here
 
 The app seamlesly integrates with Pupil Capture und Service. 
 
-The communication protocal is named NDSI, it is completely open and a referece client for Python exsits here.
+The communication protocal is named [NDSI](https://github.com/pupil-labs/pyndsi/blob/master/NDSI-CommSpecs.md), it is completely open and a referece client for Python exsits [here](https://github.com/pupil-labs/pyndsi).
 
 ##Supported Hardware:
 
