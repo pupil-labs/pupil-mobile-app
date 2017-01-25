@@ -13,7 +13,7 @@ The communication protocol is named [NDSI](https://github.com/pupil-labs/pyndsi/
 ## Supported Hardware:
 
 - Google Nexus 6p
-- Goodle Nexus 5x
+- Google Nexus 5x
 - potentially other USB-C phones (untested)
 
 ## I found a bug or need a feature!
