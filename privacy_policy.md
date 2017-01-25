@@ -17,11 +17,13 @@ If you have any questions about the Policy, please contact: Pupil Labs - info@pu
 
 Pupil Labs does not gather any of your personal information while you are using the Application, except as provided for in this Policy. Where certain information is collected, it will only be used for the stated purpose.
 
-Under no circumstances does Pupil Labs collect, download or otherwise make copies of any recordings you make using the Application (hereinafter “Recordings”) and any reference to personal information in the present Policy does not include Recordings, or any personal information about you or any third party included in the Recordings.
+Under no circumstances does Pupil Labs collect, upload, or otherwise make copies of any recordings you make using the Application (hereinafter “Recordings”) and any reference to personal information in the present Policy does not include Recordings, or any personal information about you or any third party included in the Recordings.
 
 ## General Information Transfer
 
-Any information or data the Application collects may be stored locally on your device, and Pupil Labs may obtain information as a result of the data being sent to our servers from the Application. Additionally, you may share data between the Device and other devices over a wireless network connection “Wifi” or via a wired connection to other computing devices.
+Any information or data the Application collects may be stored locally on your device. You may share data between the Device and other devices over a wireless network connection “Wifi” or via a wired connection to other computing devices.
+
+Note that Pupil Mobile does not employ an access management protocol for sensor data streams over a wireless network. An individual with access to your Wifi network with the correct client, could subscribe to your audio and/or video data and record the data. The user of Pupil Mobile is wholly responsible for securing access to their Wifi network.  
 
 ## Non-disclosure of Personal Information
 
