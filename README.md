@@ -10,7 +10,7 @@ The app is free. You can download it in the [Google Play Store](https://play.goo
 
 The communication protocol is named [NDSI](https://github.com/pupil-labs/pyndsi/blob/master/NDSI-CommSpecs.md), it is completely open. A reference client for Python exsits [here](https://github.com/pupil-labs/pyndsi).
 
-## Supported Hardware:
+## Supported Hardware
 
 - Google Nexus 6p
 - Google Nexus 5x
@@ -20,7 +20,7 @@ The communication protocol is named [NDSI](https://github.com/pupil-labs/pyndsi/
 
 Please existing issues or open a new [issue](https://github.com/pupil-labs/pupil-mobile-app/issues). This app is in Alpha state, help us make it better.
 
-## I want to use this for my experiments in the field.
+## I want to use this for my experiments in the field
 
 Feel free to do so, but do not rely on the app to work all the time! Many features and environments are still untested. If you have trouble please open an issue. The Pupil Labs development team will not be able to provide support via video or email for issues related to the Pupil Mobile Android App.
 
