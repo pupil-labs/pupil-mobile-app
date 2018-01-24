@@ -12,6 +12,9 @@ The communication protocol is named [NDSI](https://github.com/pupil-labs/pyndsi/
 
 ## Supported Hardware
 
+- Moto Z2 Play
+- One Plus 5
+- One Plus 3
 - Google Nexus 6p
 - Google Nexus 5x
 - potentially other USB-C phones (untested)
