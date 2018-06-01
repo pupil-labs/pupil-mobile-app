@@ -8,7 +8,7 @@ With Pupil Mobile you can connect your [Pupil headset](https://pupil-labs.com/st
 
 The app is free. You can download it in the [Google Play Store](https://play.google.com/store/apps/details?id=com.pupillabs.pupilmobile).
 
-The communication protocol is named [NDSI](https://github.com/pupil-labs/pyndsi/blob/master/NDSI-CommSpecs.md), it is completely open. A reference client for Python exsits [here](https://github.com/pupil-labs/pyndsi).
+The communication protocol is named [NDSI](https://github.com/pupil-labs/pyndsi/blob/master/ndsi-commspec.md), it is completely open. A reference client for Python exsits [here](https://github.com/pupil-labs/pyndsi).
 
 ## Supported Hardware
 
