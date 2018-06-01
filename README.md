@@ -15,6 +15,7 @@ The communication protocol is named [NDSI](https://github.com/pupil-labs/pyndsi/
 - Moto Z2 Play
 - OnePlus 3, 3T, 5, 5T
 - Google Nexus 5x, 6p
+- Google Pixel 2
 - Other Android Devices with USBC ports - While other Android devices with USBC ports can theoretically run Pupil Mobile and support Pupil headsets, we have found that not all USBC controllers are created equal and not all vendors provide full support of the USBC spec.
 
 ## I found a bug or need a feature!
