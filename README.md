@@ -18,9 +18,13 @@ The communication protocol is named [NDSI](https://github.com/pupil-labs/pyndsi/
 - Google Pixel 2
 - Other Android Devices with USBC ports - While other Android devices with USBC ports can theoretically run Pupil Mobile and support Pupil headsets, we have found that not all USBC controllers are created equal and not all vendors provide full support of the USBC spec.
 
+## Open Beta
+
+Join our [open beta program](https://play.google.com/apps/testing/com.pupillabs.pupilmobile) to have access to the most recent features and improvements!
+
 ## I found a bug or need a feature!
 
-Please existing issues or open a new [issue](https://github.com/pupil-labs/pupil-mobile-app/issues). This app is in Alpha state, help us make it better.
+Please existing issues or open a new [issue](https://github.com/pupil-labs/pupil-mobile-app/issues). This app is under active development, help us make it better.
 
 ## I want to use this for my experiments in the field
 
