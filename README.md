@@ -1,3 +1,7 @@
+# depreciation warning
+
+We no longer maintain this app. We still offer it for legacy reasons.
+
 # pupil-mobile
 
 A repository for the Pupil Labs mobile app Docs, Wiki and Issues
@@ -10,24 +14,9 @@ The app is free. You can download it in the [Google Play Store](https://play.goo
 
 The communication protocol is named [NDSI](https://github.com/pupil-labs/pyndsi/blob/master/ndsi-commspec.md), it is completely open. A reference client for Python exsits [here](https://github.com/pupil-labs/pyndsi).
 
-## Supported Hardware
-
-- Moto Z2 Play
-- OnePlus 3, 3T, 5, 5T
-- Google Nexus 5x, 6p
-- Google Pixel 2
-- Other Android Devices with USBC ports - While other Android devices with USBC ports can theoretically run Pupil Mobile and support Pupil headsets, we have found that not all USBC controllers are created equal and not all vendors provide full support of the USBC spec.
-
-## Open Beta
-
-Join our [open beta program](https://play.google.com/apps/testing/com.pupillabs.pupilmobile) to have access to the most recent features and improvements!
-
-## I found a bug or need a feature!
-
-Please existing issues or open a new [issue](https://github.com/pupil-labs/pupil-mobile-app/issues). This app is under active development, help us make it better.
 
 ## I want to use this for my experiments in the field
 
-Feel free to do so, but do not rely on the app to work all the time! Many features and environments are still untested. If you have trouble please open an issue. The Pupil Labs development team will not be able to provide support via video or email for issues related to the Pupil Mobile Android App.
+Feel free to do so, but do not rely on the app to work all the time.
 
 
