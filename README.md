@@ -135,3 +135,117 @@ The app is free. You can download it in the [Google Play Store](https://play.goo
 
 > You may need to <strong>enable</strong> USB OTG on some devices in order to allow data transfer and power to your Pupil Headset from your Android device.
 
+## Recorded Files
+
+```py
+# Meta File (required)
+info.csv
+
+# Video Files (required)
+# (Names and extensions can vary depending on configuration)
+Pupil Cam1 ID2.mjpeg
+Pupil Cam1 ID2.time
+
+Pupil Cam2 ID0.mjpeg
+Pupil Cam2 ID0.time
+
+Pupil Cam2 ID1.mjpeg
+Pupil Cam2 ID1.time
+
+# Audio Capture (optional)
+audio_00010000.mp4
+audio_00010000.time
+
+# Inertial Measurement Unit (IMU) Files (optional)
+imu_00020000.imu
+imu_00020000.time
+
+# Bluethooth Keyboard Presses (Optional)
+key_00040000.key
+key_00040000.time
+
+# Geographic Data (optional)
+location_00080000.loc
+location_00080000.time
+```
+
+### **video**
+
+* mp4
+   Extension: `.mp4`
+   If the video format is mjpeg / yuv, decode video and transcode into h.264 and write them as mp4 format.
+   If the video format is h.264,  just write them as mp4 format.
+
+* mjpeg
+   Extension: `.mjpeg`
+   Only available if the video format is mjpeg. Write all video frames continuously without any conversion.
+
+* raw
+   Extension: `.raw`
+   Write all video frames continuously with out any conversion.
+
+* vp8 (only support if the camera supports vp8 video format)
+   Extension: `.vp8`
+
+### **audio**
+
+Extension: `.mp4`
+Encode PCM data into AAC and write them as mp4 format.
+
+## **imu**
+
+Extension: `.imu`
+
+Data: (`imu_data_t[80]`) x (n frames, n >= 0) + `imu_data_t[0..79]`
+Timestamp values are wrote every 80 data and when app write last data.
+
+```
+typedef struct imu_data {
+    float64_t time_s_le;
+    float32_t accel_x_le;
+    float32_t accel_y_le;
+    float32_t accel_z_le;
+    float32_t gyro_x_le;
+    float32_t gyro_y_le;
+    float32_t gyro_z_le;
+} __attribute__ ((packed)) imu_data_t;
+```
+
+### **location**
+
+Extension: `.loc`
+
+Data: `location_data_t` x (n frames, n >= 0)
+Timestamp values are wrote every frame.
+
+```
+typedef location_data {
+    float64_t longitude_le;
+    float64_t latitude_le;
+    float64_t altitude_le;
+    float64_t accuracy_le;
+    float64_t bearing_le;
+    float64_t speed_le;
+} __attribute__ ((packed)) location_data_t;
+```
+
+### **key**
+
+Extension: `.key`
+
+Data: `key_data_t` x (n frames, n >= 0)
+Timestamp values are wrote every frame.
+
+```
+typedef struct key_data {
+    int16_t char_le;
+    int32_t meta_state_le;
+    int8_t action;
+} __attribute__ ((packed)) key_data_t;
+```
+
+Note: Key sensor is only available if the screen of device is ON and when device is not locked because of limitation of Android OS.
+
+### **.time**
+
+Data: 64 bits float values in big endian for each frame.
