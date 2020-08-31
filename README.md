@@ -4,7 +4,9 @@ Pupil Mobile is a companion app to Pupil Capture and Pupil Service.
 <h2 style="color:red">Deprecation Warning</h2>
 <p style="color:red">Pupil Labs no longer maintains this app. Nonetheless, it will continue to be available for existing users. The documentation below is kept for archival purposes.</p>
 
-<iframe style="display:flex;margin:0 auto;width:100%;" src="https://www.youtube.com/embed/atxUvyM0Sf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://www.youtube.com/watch?v=atxUvyM0Sf8">
+  <img src="media/pm-youtube.jpg" style="display:flex;margin:0 auto;width:100%;">
+</a>
 
 Pupil Mobile enables you to connect your Pupil eye tracking headset to your Android device via USBC.
 You can preview video and other sensor streams on the Android device and stream video data over a WiFi network to other computers (clients) running Pupil Capture.
@@ -16,7 +18,7 @@ It displays a list of available sensors.
 Click any sensor for a preview.
 
 <div class="pb-4">
-  <img src="media/pm-home.jpg" style="display:flex;margin:0 auto;width:100%;">
+  
 </div>
 
 1. **Sensors** - This area contains available sensors. Pupil headset cameras along with other sensors connected to or built into the Android device like audio and IMU.
